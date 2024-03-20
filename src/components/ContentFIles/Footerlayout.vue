@@ -5,7 +5,7 @@
 
 <template>
   <footer class="ffooter">
-    <img class="footer__fon" src="@/assets/images/footerfon.png" alt="">
+    <img class="footer__fon" src="./footerfon.png" alt="">
     <div class="footer">
   <div class="footer__contact-con">
     <div class="footer__contact-con-1D">
@@ -47,7 +47,7 @@
         <li class="footer__link-con-item-link"><a href="" class="mail">info.webovio@gmail.com</a></li>
        <div class="browser-link">
            <a class="browser-link-ovol-1" href="">f</a>
-           <a class="browser-link-ovol-2" href=""><img src="@/assets/images/twitterlogo.png" alt=""></a>
+           <a class="browser-link-ovol-2" href=""><img src="./twitterlogo.png" alt=""></a>
            <a class="browser-link-ovol-3" href="">G+</a>
            <a class="browser-link-ovol-4" href="">in</a>
        </div>
@@ -55,7 +55,7 @@
   </div>
   <div class="footer__linear-2"></div>
   <div class="footer__end-con">
-    <img src="@/assets/images/LogoEnd.svg" alt="">
+    <img src="./LogoEnd.svg" alt="">
     <a class="footer__end-con-text" href="">© 2020@webovio. All Rights Reserved.</a>
   </div>
 </div>

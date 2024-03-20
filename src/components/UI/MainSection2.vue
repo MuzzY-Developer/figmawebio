@@ -5,21 +5,21 @@ const Users = {
     name: "Angel Armstrong",
     comment:
       "“In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”",
-    images: "./src/assets/images/commentimg1.png",
+    images: "./src/components/UI/commentimg1.png",
     prog: "Founder & CEO, Google",
   },
   lina:{
     name: "Lina Hart",
     comment:
       "“I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems.",
-    images: "./src/assets/images/commentimg2.png",
+    images: "./src/components/UI/commentimg2.png",
     prog: "Founder & CEO, Jico",
   },
   oliver:{
     name: "Eunice Oliver",
     comment:
       "“Exhibit Systems is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective.”",
-    images: "./src/assets/images/commentimg3.png",
+    images: "./src/components/UI/commentimg3.png",
     prog: "Founder & CEO, Zeem",
   }
 };
@@ -28,7 +28,7 @@ const Users = {
 <template>
   <section class="main__section-2">
     <div class="main__section-2-con-1">
-      <img src="@/assets/Images/mainimg1.png" alt="" />
+      <img src="./mainimg1.png" alt="" />
       <div class="main__section-2-con-1-article-1">
         <p class="main__section-2-con-1-article-1-text-1">
           The wall new Balenciaga.com
@@ -68,7 +68,7 @@ const Users = {
           <a href="">See Case Study</a>
         </p>
       </div>
-      <img src="@/assets/Images/mainimg2.png" alt="" />
+      <img src="./mainimg2.png" alt="" />
       <div class="main__section-2-con-2-chat-2">
         <CardComment
           :username="Users.lina.name"
@@ -79,7 +79,7 @@ const Users = {
       </div>
     </div>
     <div class="main__section-2-con-3">
-      <img src="@/assets/Images/mainimg3.png" alt="" />
+      <img src="./mainimg3.png" alt="" />
       <div class="main__section-2-con-1-article-1">
         <p class="main__section-2-con-1-article-1-text-1">
           Is this the future of Online Booking

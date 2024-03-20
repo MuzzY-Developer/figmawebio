@@ -12,12 +12,12 @@ export default {
 <template>
      <nav class="navbar">
        <div class="navbar__logo">
-        <img  src="@/assets/images/Logo.svg" alt="">
-        <img  class="fiks" src="@/assets/images/webovio.png" alt="">
+        <img  src="./Logo.svg" alt="">
+        <img  class="fiks" src="./webovio.png" alt="">
        
        </div>
        <div class="navbar__burger">
-        <img @click="modal = !modal" src="@/assets/images/NavBurger.svg" :class="{'df' : modal}" alt="">
+        <img @click="modal = !modal" src="./NavBurger.svg" :class="{'df' : modal}" alt="">
         <div :class="{ 'activemodal': modal }" class="navbar__burger-modal">
         <button class="navbar__burger-modal-btn" @click ="modal = false" >X</button>
            <ul class="navbar__burger-modal-ul">

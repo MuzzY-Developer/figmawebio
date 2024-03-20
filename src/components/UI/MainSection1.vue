@@ -12,7 +12,7 @@
         </article>
         <div class="main__section-1-Card">
             <p class="main__section-1-Card-text-1">With More than 10 Years of Knowledge and Expertise we Design and Code Websites and Apps, We Build Brands and Help Them Succeed</p>
-            <img src="@/assets/images/Oval.svg" alt="">
+            <img src="./Oval.svg" alt="">
             <p class="main__section-1-Card-text-2">Genevieve Rodriquez <br><span>Founder & CEO, Webovio</span></p>
         </div>
     </section>

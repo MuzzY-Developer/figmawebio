@@ -7,7 +7,7 @@ import SliderItem1 from "@/components/UI/Slider-Item1.vue";
     <div class="header">
         <div class="header__container">
             <Navbar/>
-            <img class="header__container-bg" src="@/assets/images/logophoto.png" alt="">
+            <img class="header__container-bg" src="@/assets/Images/logophoto.png" alt="">
             <article class="header__container-article-1">
             <p class="header__container-article-1-text-1">A place where</p>
             <p class="header__container-article-1-text-2">A creative agency for redemptive brands</p>

@@ -21,11 +21,11 @@ export default {
         <div :class="{ 'activemodal': modal }" class="navbar__burger-modal">
         <button class="navbar__burger-modal-btn" @click ="modal = false" >X</button>
            <ul class="navbar__burger-modal-ul">
-            <li :class="{ 'activemodaltext': modal }" class="li">Stratedy</li>
-            <li :class="{ 'activemodaltext': modal }" class="li">Desinger</li>
-            <li :class="{ 'activemodaltext': modal }" class="li">Books</li>
-            <li :class="{ 'activemodaltext': modal }" class="li">Webserver</li>
-            <li :class="{ 'activemodaltext': modal }" class="li">Digital book</li>
+            <li :class="{ 'activemodaltext': modal }" @click="modal = false" class="li">Stratedy</li>
+            <li :class="{ 'activemodaltext': modal }" @click="modal = false" class="li">Desinger</li>
+            <li :class="{ 'activemodaltext': modal }" @click="modal = false" class="li">Books</li>
+            <li :class="{ 'activemodaltext': modal }" @click="modal = false" class="li">Webserver</li>
+            <li :class="{ 'activemodaltext': modal }" @click="modal = false" class="li">Digital book</li>
            </ul>
 
         </div>
